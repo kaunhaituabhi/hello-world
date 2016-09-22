@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+<!--
+
+<style>
+#container {
+  width:400 px;
+  height: 400px;
+  position:relative;
+  Background:rgb(256,156,198);
+}
+#animate {
+ width:
+ height:
+ position:absolute;
+ background: rgb(45,76,90);
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button>
+</p>
+
+
+
+<div id="container">
+<div id="animation"></div>
+
+</div>
+
+-->
+
+<script>
+
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+   $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+
+/*
+function myMove() {
+ var elem=
+ document.getElementById("animate");
+ var pos=0;
+ var id=setInterval(frame, 5);
+ function frame() {
+   if(pos == 350) {
+     clearInterval(id);
+      } else{
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+      }
+    }
+ }
+
+
+*/
+
+</script>
+
+</body>
+</html>
